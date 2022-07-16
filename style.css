@@ -1,0 +1,74 @@
+.page{
+    background-color: #02aab0;
+}
+h1{
+    background-color: #000428;
+color: white;
+    text-align: center;
+    font-size: 3rem;
+}
+.container{
+    display: flex;
+
+}
+.item1{
+    flex: 2;
+
+}
+.item2{
+    flex: 2;
+
+}
+.item3{    
+    margin-top: 30px;
+    width:fit-content ;
+    margin-left: 35%;
+}
+
+.boundry{
+     background-color: #eeeeee;
+        padding: 20px;
+      border: 1px solid black;
+    }
+.bd{
+        background-color: lightgrey; 
+        border: 3px solid black;
+        padding: 2px 30px;
+        margin-left: 25%;
+        color: black;
+  }  
+ .bd>h4{
+    text-align: center;
+    font-size: 1.3rem;
+}
+input {
+    width: 35%;
+    height: 30px;
+    border: 3px solid #000428;
+}
+#gradePlace{
+    text-align: center;
+    padding-top: 5px;
+    margin: 20px;
+    border: 3px solid #000428;
+}
+.images > img{
+    margin-top: 10px;
+    background-color: azure;
+    width: 450px;
+    margin-left: 35%;
+}
+.btn{
+    margin: 10px;
+    width: 40%;
+    color: white;
+    background-color: black;
+    padding:10px;
+    font-size: 1rem;
+    border-radius: 20px;
+}
+.btn:hover{
+    transition: 0.10ms;
+    background-color: deepskyblue; 
+    color: black;
+}

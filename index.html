@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grades Check</title>
+    <link rel="stylesheet" href="./style.css" type="text/css" />
+  </head>
+  <body>
+    <div class="page">
+      <h1>Result Checker</h1>
+      <div class="images">
+        <img src="./images/undraw_online_stats_0g94.svg" alt="">
+      </div>
+    <h1>Total Marks:550</h1>
+    <form action="#" method="post" name="PecentageCheck">
+  <div class="container">
+              <div class="item1">
+                <fieldset class="boundry">
+                  <legend class="bd"><h4>Find Percentage:</h4></legend>
+                    <label for="obMarks">Obtain Marks:</label>
+                    <input
+                      type="number"
+                      id="obMarks"
+                      name="obtain_Mark"
+                      placeholder="Enter your Obtain marks"
+                      />
+                      &nbsp; &nbsp;<span>&#x2192</span> &nbsp; &nbsp;
+                      <input type="number" id="perView" name="percentage_view" placeholder="display percentage"/>
+                      <br />
+                      <br />
+                        <button type="button" id="convert" class="btn">Convert Into Percentaage</button>
+                        <button type="reset" id="reset" class="reset btn">Reset</button>
+                      <br /><br />
+                  </fieldset>
+                </div>
+              <div class="item2">
+                <fieldset class="boundry">
+                  <legend class="bd"><h4>Find Grade:</h4></legend>  
+                    <label for="obPercentage">Obtain Percentage:</label>
+                    <input
+                      type="number" id="obPercentage" name="obtain_Percentage" placeholder="Enter your Obtain percentage" />  
+                      <br /><br />
+                    <button type="button" id="checkGrade" class="btn">Check Grade</button> 
+                    <button type="reset" id="reset2" class="reset btn">Reset</button>
+                  <br /><br />
+                </fieldset>
+              </div>
+            </div>
+            <div class="item3">
+                <fieldset class="boundry">
+                  <legend class="bd"><h4>Display Grade:</h4></legend>  
+                  <textarea name="textarea" id="gradePlace" cols="20" rows="2"></textarea>
+                </fieldset>
+            </div>
+</form>
+
+
+
+
+</div>
+    <script src="./app.js"></script>
+  </body>
+</html>
